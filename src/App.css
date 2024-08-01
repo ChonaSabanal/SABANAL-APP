@@ -5,11 +5,16 @@
 }
 .App {
   width: 100%;
-  background-color: #323a45;
+  background-color: #4a044e;
   height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 100px;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  position: absolute;
+  top: -10px;
 }
 ul {
   display: flex;
@@ -18,7 +23,7 @@ ul {
 }
 li {
   list-style: none;
-  border: 1px solid rgb(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   padding: 10px;
   width: 220px;
   display: flex;
@@ -27,10 +32,14 @@ li .btn {
   width: 150px;
   margin-inline: auto;
   padding: 5px;
-  background-color: #d6d7d9;
+  background-color: #ee8080;
+  .rounded-box {
+    border: 5px solid #d6d7d9;
+  }
 }
 input {
-  margin: 5px 0;
+  margin: 35px 0;
   padding: 5px;
   width: 220px;
+  float: right;
 }
